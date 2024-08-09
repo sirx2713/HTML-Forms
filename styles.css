@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+}
+#main-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    left: 100px;
+    right: 100px;
+    width: 1200px;
+    height:fit-content;
+    background-color: #F1DEC6;
+}
+#main-container > #header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: fit-content;
+    background-color: #FF8343;
+    color: white;
+}
+#main-container > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
